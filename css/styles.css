@@ -219,8 +219,13 @@ form button {
         align-items: center;
     }
 
+    .candy-img {
+        width: 100%;
+        
+    }
+
     .gallery-1, .gallery-2, .gallery-3 {
-        width: 300px;
+        width: 350px;
     }
 
     .banner {
