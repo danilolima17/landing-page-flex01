@@ -79,7 +79,7 @@ body {
 .about {
     display: flex;
     gap: 50px;
-    width: 900px;
+   
     justify-content: center;
     align-items: center;
 }
@@ -87,7 +87,7 @@ body {
 .about-2 {
     display: flex;
     gap: 50px;
-    width: 900px;
+   
     justify-content: center;
     align-items: center;
 }
@@ -191,7 +191,7 @@ form button {
 
     .about, .about-2 {
         flex-direction: column; 
-        max-width: 350px;
+       
     }
 
     .about-2 {
