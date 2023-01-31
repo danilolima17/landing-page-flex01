@@ -1,0 +1,237 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.side-bar {
+    background-color: #006599;
+    width: 300px;
+    height: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.nav-list, ul, li, a {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    color: #fff;
+    text-decoration: none;
+    margin-top: 5px;
+}
+
+.container {
+    display: flex;
+}
+
+.container-flex {
+    display: flex;
+    flex-direction: column
+}
+
+.banner {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-image: url('https://i.ibb.co/MS6S3mj/banner2.jpg');
+    width: 1350px;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.container-2 {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    height: 100%;
+    margin-bottom: 20px;
+    margin-top: 80px;
+    justify-content: center;
+    
+}
+
+.candy-img {
+    width: 300px;
+    height: 400px;
+}
+
+.about {
+    display: flex;
+    gap: 50px;
+    width: 900px;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-2 {
+    display: flex;
+    gap: 50px;
+    width: 900px;
+    justify-content: center;
+    align-items: center;
+}
+
+.right {
+    align-items: center;
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+h2 {
+    font-size: 30px;
+    color: #006599;
+}
+
+.candy-1 {
+    display: flex;
+    gap: 10px;
+}
+
+.candy-2 {
+    display: flex;
+    gap: 20px;
+}
+
+.candy-3 {
+    display: flex;
+    gap: 47px;
+}
+
+.gallery-1 {
+    width: 180px;
+    height: 180px;
+}
+
+.gallery-2 {
+    width: 300px;
+    height: 300px;
+}
+
+.gallery-3 {
+    width: 200px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form input {
+    padding: 15px 10px;
+    color: #006599;
+}
+
+form textarea {
+    border-color: #006599;;
+}
+input::placeholder {
+    color: #006599;  
+}
+
+textarea::placeholder {
+    padding: 15px;
+    font-family: 'Montserrat';
+}
+
+form button {
+    background-color: #006599;
+    width: 20%;
+    padding: 15px 40px;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    
+}
+
+@media (max-width: 667px) {
+
+    .side-bar {
+        flex-direction: row;
+        width: 100%;
+        height: 0;
+        padding: 32px 30px;
+    }
+
+    .logo {
+        flex-direction: row;
+
+    }
+    .nav-list, ul, li, a {
+        flex-direction: row;
+        display: none;
+    }
+
+    .logo img {
+        width: 40px;
+    }
+
+    .about, .about-2 {
+        flex-direction: column; 
+        max-width: 350px;
+    }
+
+    .about-2 {
+        flex-direction: column-reverse;
+    }
+   
+    .left {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .right {
+        padding: 15px;
+    }
+
+    h2 {
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .candy-1, .candy-2, .candy-3{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .gallery-1, .gallery-2, .gallery-3 {
+        width: 300px;
+    }
+
+    .banner {
+        width: 100%;
+    }
+
+    .form {
+        padding: 15px;
+    }
+
+    form button {
+        width: 100%;
+    }
+}
